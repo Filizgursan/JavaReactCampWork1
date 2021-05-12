@@ -5,8 +5,10 @@ import Abstract.CustomerCheckService;
 import Entities.Customer;
 
 public class StarbucksCustomerManager extends BaseCustomerManager{
+	
 	private CustomerCheckService customerCheckService;
 	
+	//dependency injection
 	public StarbucksCustomerManager(CustomerCheckService customerCheckService) {
 		
 		this.customerCheckService = customerCheckService;
