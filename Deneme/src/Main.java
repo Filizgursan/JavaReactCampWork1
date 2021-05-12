@@ -9,24 +9,15 @@ import Entities.Customer;
 public class Main {
 
 	public static void main(String[] args) {
-		BaseCustomerManager baseCustomerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
+		BaseCustomerManager baseCustomerManager = new NeroCustomerManager(new MernisServiceAdapter());
 		Customer customer = new Customer();
 		customer.setId(1);
 		customer.setFirstName("Filiz");
 		customer.setLastName("Gürsan");
 		customer.setDateOfBirth(LocalDate.of(1999,10,19));
-		customer.setNationalityId("1234567");
+		customer.setNationalityId("46891618306");
 		
 		baseCustomerManager.save(customer);
-		
-		try { 
-			
-		}
-		catch(Exception e1) 
-		{     
-			e1.getMessage();
-	    }
-
 	}
 
 }

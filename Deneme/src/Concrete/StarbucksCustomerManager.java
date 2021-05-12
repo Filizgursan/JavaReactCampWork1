@@ -15,8 +15,7 @@ public class StarbucksCustomerManager extends BaseCustomerManager{
 	public void save(Customer customer) {
 		if(customerCheckService.CheckIfRealPerson(customer) == true) {
 			System.out.println("Save to db : " + customer.getFirstName());
-		}
-		else {
+		}else {
 			System.out.println("Not a valid person");
 		}
 	}
