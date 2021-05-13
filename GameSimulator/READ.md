@@ -8,7 +8,7 @@ Müşteri bilgilerinin doğruluğunu e-devlet sistemlerini kullanarak doğrulama
 2.Oyun satışı yapılabilecek satış ortamını simule edilecek.( Yapılan satışlar oyuncu ile ilişkilendirilmelidir.)
 
 
-4.Sisteme yeni kampanya girişi, kampanyanın silinmesi ve güncellenmesi imkanlarını simule edilecek.
+3.Sisteme yeni kampanya girişi, kampanyanın silinmesi ve güncellenmesi imkanlarını simule edilecek.
 
 
-6.Satışlarda kampanya entegrasyonunu simule edilecek.
+4.Satışlarda kampanya entegrasyonunu simule edilecek.
